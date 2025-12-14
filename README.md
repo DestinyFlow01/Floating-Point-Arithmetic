@@ -4,7 +4,7 @@
 This is my first C code shared online, after a few weeks of studying the C family (C, C++, and C#). I’ve been enjoying the journey, and here’s how I currently rank them:
 
 1. **C**  
-   I love the control and predictability it offers. As Uncle Ben said: *“With great power comes great responsibility.”* Memory management must be handled carefully to avoid dangling pointers, leaks, or the infamous segmentation fault. The clarity of variable storage — stack, global, const, and heap via `malloc` — makes performance transparent. I finally understand what Linus Torvalds meant about its power.
+   I love the control and predictability it offers. As Uncle Ben said: *“With great power comes great responsibility.”* Memory management must be handled carefully to avoid dangling pointers, leaks, or the infamous segmentation fault. The clarity of variable storage — stack, global, const, and heap via `malloc` — makes performance transparent. I finally understand what Linus Torvalds meant about its power. Moreover, it really is an eye-watering language, not because of its difficulty (its syntax is easy to follow), but from the beauty, transparency and honesty it provides to me as the user.
 
 2. **C++**  
    I appreciate its features (classes, templates) while retaining much of C’s control. Performance is similar, though I/O streams can be a trap due to type safety overhead, reducing its speed especially in `iostream` and `fstream` library. Modern data types like `vector` and `unordered_map` require careful consideration, since their storage (heap vs. stack) isn’t as obvious, and that affects performance.
