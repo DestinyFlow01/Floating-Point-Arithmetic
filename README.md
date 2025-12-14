@@ -40,6 +40,10 @@ Finally, the last term inclusion (later called iteration) are found to be (print
   `long double` : $0.600000000000000000021684043450$
 
 ## Processing, Postprocessing and Interpretation
+Here, i define the absolute error to be \
+$\text{absolute error} = |y - y_{\text{actual}}|$ <br>
+and I won't be using relative error in the analysis. 
+
 Two images are presented here. The first shows the absolute error between `double` and `long double` data types, with the x‑axis denoting the number of iterations (terms) and the y‑axis denoting absolute error in log scale. As expected, the error decreases with more terms. However, the `double` error plateaus after iteration 11, while the `long double` error plateaus after iteration 15. Beyond these points, both errors remain constant.
 <img width="990" height="790" alt="image" src="https://github.com/user-attachments/assets/5738cd32-b4f2-4010-a9ab-cafcb9c705c7" />
 
