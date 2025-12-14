@@ -1,4 +1,4 @@
-# Floating-Point-Arithmetic
+# Floating Point Arithmetic
 
 ## Introduction
 This is my first C code shared online, after a few weeks of studying the C family (C, C++, and C#). I’ve been enjoying the journey, and here’s how I currently rank them:
